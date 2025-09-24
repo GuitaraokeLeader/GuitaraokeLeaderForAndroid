@@ -148,7 +148,7 @@ function state_transition_from_song_play_to_song_list() {
 // endregion: state transition
 
 function button_download_song_on_click() {
-    location = "https://bestia.dev/guitaraoke/songs.html";
+    location = "https://guitaraokeleader.github.io/songs.html";
 }
 
 function send_song_url(event) {

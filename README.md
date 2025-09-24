@@ -5,21 +5,21 @@
 
 **Play guitar and sing with your friends**  
 **The lyrics and chords show in sync with the "Leader" on any smartphone, tablet, computer or smart TV.**  
-***version: 3.4 date: 2022-06-21 author: [bestia.dev](https://bestia.dev) repository: [GitHub](https://github.com/bestia-dev/GuitaraokeLeader)***  
+***version: 3.4 date: 2022-06-21 author: [GuitaraokeLeader](https://github.com/GuitaraokeLeader) repository: [GitHub](https://github.com/GuitaraokeLeader/GuitaraokeLeaderForAndroid)***  
 
  ![maintained](https://img.shields.io/badge/maintained-green)
  ![ready_for_use](https://img.shields.io/badge/ready_for_use-green)
- [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bestia-dev/GuitaraokeLeader/blob/master/LICENSE)
+ [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/GuitaraokeLeader/GuitaraokeLeaderForAndroid/blob/master/LICENSE)
  ![GuitaraokeLeader](https://bestia.dev/webpage_hit_counter/get_svg_image/136193070.svg)
 
 Hashtags: #java #android #server #tutorial  
-My projects on Github are more like a tutorial than a finished product: [bestia-dev tutorials](https://github.com/bestia-dev/tutorials_rust_wasm).
+
 
 ## Instructions
 
-To play the game, go to <https://bestia.dev/guitaraoke> and follow the instructions.
+To play the game, go to <https://guitaraokeleader.github.io/> and follow the instructions.
 
-![screenshot](https://github.com/bestia-dev/GuitaraokeLeader/raw/main/app/src/main/assets/guitaraokewebapp/Poster.png)
+![screenshot](https://github.com/GuitaraokeLeader/GuitaraokeLeaderForAndroid/raw/main/app/src/main/assets/guitaraokewebapp/Poster.png)
 
 ## Guitaraoke
 
@@ -96,7 +96,7 @@ The songs I personally prepared are downloadable. Click on the button `Download 
 
 Only the `Leader` needs to install the `GuitaraokeLeader` APK to his android smartphone.  
 The followers will just use their internet browser.  
-All the instructions are here: <https://bestia.dev/guitaraoke>.  
+All the instructions are here: <https://guitaraokeleader.github.io/>.  
 
 ## The Download songs page
 
@@ -162,11 +162,12 @@ To test it I can use this curl command:
 ```bash
 curl --silent -v --range 20-40 http://192.168.18.251:8080/videos/Welcome to Guitaraoke Leader.mp4
 ```
+
 This returns 3497681. It does not understand ranges.
 This nginx server does understand:
 
 ```bash
- curl --silent -v --range 20-40 https://bestia.dev/guitaraoke/videos/Welcome to Guitaraoke Leader.mp4
+ curl --silent -v --range 20-40 https://github.com/GuitaraokeLeader/Songs/raw/main/songs/Welcome to Guitaraoke Leader.mp4
 ```
 
 It return 21. Correct answer.
@@ -185,9 +186,6 @@ You know the price of a beer in your local bar ;-)
 So I can drink a free beer for your health :-)  
 [Na zdravje!](https://translate.google.com/?hl=en&sl=sl&tl=en&text=Na%20zdravje&op=translate) [Alla salute!](https://dictionary.cambridge.org/dictionary/italian-english/alla-salute) [Prost!](https://dictionary.cambridge.org/dictionary/german-english/prost) [Nazdravlje!](https://matadornetwork.com/nights/how-to-say-cheers-in-50-languages/) 🍻
 
-[//bestia.dev](https://bestia.dev)  
-[//github.com/bestia-dev](https://github.com/bestia-dev)  
-[//bestiadev.substack.com](https://bestiadev.substack.com)  
-[//youtube.com/@bestia-dev-tutorials](https://youtube.com/@bestia-dev-tutorials)  
-
+[//github.com/GuitaraokeLeader](https://github.com/GuitaraokeLeader)  
+  
 [//]: # (auto_md_to_doc_comments segment end A)
