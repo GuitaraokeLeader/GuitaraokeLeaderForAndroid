@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:id="@+id/contentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".MainActivity">
+
+            <!-- Header aligned to top -->
+            <LinearLayout
+                android:id="@+id/header"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="#5b39c6"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <TextView
+                    android:id="@+id/header_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:text="@string/app_name"
+                    android:textAlignment="textStart"
+                    android:textColor="#7FFF00"
+                    android:background="?attr/selectableItemBackground"
+                    android:focusable="true"
+                    android:clickable="true"/>
+
+                <TextView
+                    android:id="@+id/header_debug"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:text="@string/button_debug"
+                    android:textAlignment="center"
+                    android:textColor="#ff7f00"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"/>
+
+                <TextView
+                    android:id="@+id/header_exit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:text="@string/button_exit"
+                    android:textAlignment="center"
+                    android:textColor="#ff7f00"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"/>
+
+                <TextView
+                    android:id="@+id/header_ip_port"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:text="@string/header_ip_port"
+                    android:textAlignment="textEnd"
+                    android:textColor="#7FFF00" />
+
+            </LinearLayout>
+
+            <WebView
+                android:id="@+id/web_view_1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@id/header"
+                android:layout_alignParentBottom="true">
+
+            </WebView>
+        </RelativeLayout>
+</LinearLayout>
+
+
+
+
